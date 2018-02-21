@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dell.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".My_HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MyActivity_Setup" />
+        <activity android:name=".MyActivity_Setup_Edit" />
+        <activity android:name=".MyActivity_Mytask" />
+        <activity android:name=".MyActivity_Vip" />
+        <activity android:name=".MyActivity_Myaward" />
+        <activity android:name=".MyActivity_Talent" />
+        <activity android:name=".MyActivity_chat" />
+        <activity android:name=".MyActivity_recievedaward" />
+        <activity android:name=".MyActivity_credit" />
+        <activity android:name=".NewsFragment" />
+        <activity android:name=".MyActivity_mytask_currenttask" />
+        <activity android:name=".MyActivity_mytask_historicaltask" />
+        <activity android:name=".ViewAdapter" />
+        <activity android:name=".FragmentAdapter" />
+        <activity android:name=".fragmentAdapter" />
+        <activity android:name=".viewAdapter" />
+        <activity android:name=".MutiProgress" />
+        <activity android:name=".Explore_weekly" />
+        <activity android:name=".Explore_weekly_interal" />
+        <activity android:name=".Explore_weekly_adapter" />
+        <activity android:name=".MyActivity_mytask_personalhome" />
+        <activity android:name=".ExploreActivity" />
+        <activity android:name=".Task_Home" />
+        <activity android:name=".MyActivity_evaluation" />
+        <activity android:name=".MyActivity_Edit_NickName" />
+        <activity android:name=".MyActivity_Edit_password" />
+        <activity android:name=".MyActivity_Edit_phonenumber" />
+        <activity android:name=".MyActivity_chat_home"></activity>
+    </application>
+
+</manifest>
